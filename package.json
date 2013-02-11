@@ -4,9 +4,9 @@
   "description": "Filter system using STDIN/STDOUT to be used with UNIX pipes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./test.sh"
   },
-  "repository": "",
+  "repository": "https://github.com/kevwil/pipecleaner",
   "keywords": [
     "pipe",
     "stdin",
@@ -15,7 +15,7 @@
     "filter"
   ],
   "author": "Kevin Williams <kevwil@gmail.com>",
-  "license": "MIT",
+  "license": "DBAD / WTFPL",
   "dependencies": {
     "cli-color": "~0.1.7",
     "bufferstream": "~0.5.1"
